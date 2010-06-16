@@ -1,0 +1,291 @@
+
+
+html {
+	font-family: FreeSans, Helvetica, Calibri, Arial, sans-serif;
+	background: #423a3a;
+	color: #f6f6f6;
+	padding: 7% 12% 0 12%;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+optgroup option {
+	font-weight: normal;
+}
+
+h1 {
+	float: left;
+	color: #9a8c8c;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+ul.navigation {
+	float: right;
+}
+
+ul.navigation li {
+	display: inline;
+}
+
+ul.navigation a {
+	background: #9a8c8c;
+	padding: 5px;
+	text-decoration: none;
+	color: #f6f6f6;
+}
+
+ul.navigation a:visited {
+	color: #f6f6f6;
+}
+
+ul.navigation a:hover {
+	background: #242222;
+}
+
+ul.navigation a:last-child {
+	border: 0 none;
+}
+
+ul.navigation a.active {
+	background: #f6f6f6;
+	color: #423a3a;
+}
+
+form.start {
+	text-align: center;
+}
+
+form.start label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.main {
+	padding-top: 7%;
+}
+
+h3 {
+	clear: both;
+	color: #f4ddb8;
+	font-size: 2.1em;
+	font-weight: bold;
+	margin-bottom:2px;
+}
+
+ul.tabs li {
+	display: inline;
+}
+
+ul.tabs a {
+	text-decoration: none;
+	background: #9a8c8c;
+	padding: 5px;
+	color: #242222;
+}
+
+ul.tabs a:visited {
+	color: #242222;
+}
+
+ul.tabs a:hover {
+	background: #242222;
+	color: #f6f6f6;
+}
+
+ul.tabs a.active {
+	color: #9a8c8c;
+	background: #f6f6f6;
+	font-weight: bold;
+}
+
+.content {
+	background: #f6f6f6;
+	color: #242222;
+	margin: 5px 0 2% 0;
+	padding: 1.6%;
+}
+
+ul.pagination {
+	text-align: center;
+}
+
+ul.pagination li {
+	display: inline;
+	padding: 5px;
+	/*background: #9A8C8C;*/
+}
+
+ul.pagination a {
+	padding: 5px;
+	text-decoration: none;
+	color: #817272;
+	/*color: #f6f6f6;
+	background: #9a8c8c;*/
+}
+
+ul.pagination li.selected > a {
+	color: #242222;
+	font-weight: bold;
+}
+
+ul.pagination li.selected > a:hover {
+	color: #242222;
+	background: #f6f6f6;
+}
+
+ul.pagination a:hover {
+	background: #242222;
+	color: #f6f6f6;
+}
+
+table.listing {
+	margin: 2% 0;
+	font-size: 0.85em;
+	width: 100%;
+}
+
+table.listing th {
+	font-weight: bold;
+}
+
+table.listing th:last-child {
+	/*text-align: center;*/
+}
+
+table.listing tr:nth-child(even) {
+	background: #dad4d4;
+}
+
+table.listing tr > td:first-child {
+	padding-right: 10px;
+}
+
+table.listing tr > td:last-child {
+	/*text-align: center;*/
+}
+
+table.listing td.author {
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+table.listing td.description {
+	font-size: 0.9em;
+}
+
+table.listing form {
+	display: inline;
+}
+
+table.listing input[type="submit"] {
+	text-indent: -9999px;
+	width: 32px;
+	height: 32px;
+	border: 0 none;
+	cursor: pointer;
+}
+
+table.listing input.fav {
+	background: url('../images/fav.png') center no-repeat;
+}
+
+table.listing input.unfav {
+	background: url('../images/unfav.png') center no-repeat;
+}
+
+table.listing input.install {
+	background: url('../images/install.png') no-repeat;
+}
+
+table.listing input.uninstall {
+	background: url('../images/uninstall.png') no-repeat;
+}
+
+.source-required a, .source-selected a {
+	color: #423a3a;
+	text-decoration: none;
+}
+
+.source-required a {
+	padding-left: 16px;
+	font-weight: bold;
+	background: url('../images/missing.png') left no-repeat;
+}
+
+.next-step {
+	display: none;
+}
+
+.what-to-install {
+	float: right;
+	width: 50%;
+	color: #423a3a;
+	background: #9a8c8c;
+	padding: 1%;
+	margin-bottom: 2%;
+}
+
+.what-to-install h3 {
+	font-size: 1.15em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.what-to-install h4 {
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #423a3a;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+.what-to-install h5 {
+	color: #f6f6f6;
+}
+
+.what-to-install .extensions {
+	float: left;
+	width: 46%;
+	padding: 2%;
+}
+
+.what-to-install .utilities {
+	float: right;
+	width: 46%;
+	padding: 2%;
+}
+
+.what-to-install ul > li {
+	padding-bottom: 7px;
+	border-bottom: 1px dotted #423a3a;
+}
+
+.what-to-install span.author {
+	font-style: italic;
+	font-size: 0.9em;
+	color: #242222;
+}
+
+.what-to-install span.version {
+	font-size: 0.75em;
+	display: block;
+}
+
+.install-settings label {
+	display: block;
+	padding: 3px;
+}
+
+.install-settings input {
+	/*border: 0 none;*/
+	margin-left: 3px;
+}
+
+.build {
+	text-align: center;
+}
