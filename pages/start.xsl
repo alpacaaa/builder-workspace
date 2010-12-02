@@ -38,7 +38,7 @@
 	
 		</optgroup>
 		
-		<xsl:variable name="github" select="document(concat($root, '/github-api/symphony/symphony-2/'))" />
+		<xsl:variable name="github" select="document(concat($root, '/github-api/symphonycms/symphony-2/'))" />
 	
 		<xsl:call-template name="options">
 			<xsl:with-param name="label" select="'Tags'" />
